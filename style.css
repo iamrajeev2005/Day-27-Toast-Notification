@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(179, 17, 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.button{
+    padding: 15px 30px;
+    font-size: 2vw;
+    border: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #c0c0c0;
+}
+.button:active{
+    scale: .98;
+}
+.notifies{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+.notify{
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    background-color: #fff;
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 12px 40px;
+    border-radius: 15px;
+    margin: 10px;
+}
